@@ -14,6 +14,8 @@ wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
+wp-content/themes/twenty*/
+
 # ignore the files
 /index.php
 /wp-activate.php
