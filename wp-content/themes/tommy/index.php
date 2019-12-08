@@ -1,2 +1,2 @@
 <?php
-    echo "tommy";
+    bloginfo('name');
