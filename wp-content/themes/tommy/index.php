@@ -5,8 +5,11 @@
         <link rel="stylesheet" href="<?php bloginfo("stylesheet_url"); ?>" type="text/css"/>
     </head>
     <body>
-        <div>
-            <?php bloginfo("description"); ?>
+        <div id="content">
+            <div id="main-content">
+                <?php bloginfo("description"); ?>
+                <?php bloginfo("vertion"); ?>
+            </div>
         </div>
     </body>
 </html>

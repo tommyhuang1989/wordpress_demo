@@ -7,3 +7,13 @@
     Author URI: www.bugfine.com
     Tags: first, simple, clear
 */
+
+#content {
+    width: 800px;
+    border: 0ch;
+}
+
+#main-content {
+    width: 650px;
+    margin: 10px;
+}
