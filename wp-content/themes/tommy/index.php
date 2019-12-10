@@ -1,4 +1,4 @@
-<!Doctype html>
+<?php bloginfo("stylesheet_url"); ?>
 <html>
     <head>
         <title><? bloginfo("name"); ?></title>
