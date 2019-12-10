@@ -1,12 +1,12 @@
 <?php bloginfo("stylesheet_url"); ?>
 <html>
     <head>
-        <title><? bloginfo("name"); ?></title>
-        <!-- <link rel="stylesheet" href="<? bloginfo("stylesheet_url"); ?>" type="text/css"/> -->
+        <title><?php bloginfo("name"); ?></title>
+        <link rel="stylesheet" href="<?php bloginfo("stylesheet_url"); ?>" type="text/css"/>
     </head>
     <body>
         <div>
-            <? bloginfo("description"); ?>
+            <?php bloginfo("description"); ?>
         </div>
     </body>
 </html>
